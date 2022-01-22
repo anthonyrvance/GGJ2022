@@ -1,0 +1,2400 @@
+fileFormatVersion: 2
+guid: 34a2f2c489c0b2f4f922fc9ffbd4b7bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7878810210572193703
+    second: messy-export_0
+  - first:
+      213: 5245742320022620382
+    second: messy-export_1
+  - first:
+      213: 9222991148128405083
+    second: messy-export_2
+  - first:
+      213: -1060047924910733102
+    second: messy-export_3
+  - first:
+      213: 2224814172689463266
+    second: messy-export_4
+  - first:
+      213: 2321952566456933864
+    second: messy-export_5
+  - first:
+      213: 6890404755130709522
+    second: messy-export_6
+  - first:
+      213: -7979165119350763694
+    second: messy-export_7
+  - first:
+      213: -5769584899508744058
+    second: messy-export_8
+  - first:
+      213: -8552887481981666381
+    second: messy-export_9
+  - first:
+      213: -8475625020078432724
+    second: messy-export_10
+  - first:
+      213: 6399292492192651569
+    second: messy-export_11
+  - first:
+      213: -2943041756852351349
+    second: messy-export_12
+  - first:
+      213: 2463809924944155013
+    second: messy-export_13
+  - first:
+      213: 4145596902132678747
+    second: messy-export_14
+  - first:
+      213: 8734099083069805266
+    second: messy-export_15
+  - first:
+      213: -3660847768208772889
+    second: messy-export_16
+  - first:
+      213: -3421952455636943718
+    second: messy-export_17
+  - first:
+      213: -1814444290793134204
+    second: messy-export_18
+  - first:
+      213: -4733406416631539161
+    second: messy-export_19
+  - first:
+      213: -3610734526811778566
+    second: messy-export_20
+  - first:
+      213: -5593888326427147213
+    second: messy-export_21
+  - first:
+      213: -8050713275616422032
+    second: messy-export_22
+  - first:
+      213: -8290732905741447444
+    second: messy-export_23
+  - first:
+      213: 3479097070593645219
+    second: messy-export_24
+  - first:
+      213: 5100606161777559518
+    second: messy-export_25
+  - first:
+      213: -6778728466700468732
+    second: messy-export_26
+  - first:
+      213: 6252380814228228295
+    second: messy-export_27
+  - first:
+      213: 6100963161032972560
+    second: messy-export_28
+  - first:
+      213: 567992106786697627
+    second: messy-export_29
+  - first:
+      213: 9142465245556193157
+    second: messy-export_30
+  - first:
+      213: 1972204600504617706
+    second: messy-export_31
+  - first:
+      213: -7619184818114413450
+    second: messy-export_32
+  - first:
+      213: 6852811380720354637
+    second: messy-export_33
+  - first:
+      213: -399561608701128852
+    second: messy-export_34
+  - first:
+      213: 5096599030790046954
+    second: messy-export_35
+  - first:
+      213: -111936608529657541
+    second: messy-export_36
+  - first:
+      213: 1284950478072849615
+    second: messy-export_37
+  - first:
+      213: 5435672248622270598
+    second: messy-export_38
+  - first:
+      213: -1660729767003348216
+    second: messy-export_39
+  - first:
+      213: -661696675786947904
+    second: messy-export_40
+  - first:
+      213: -8902271678385864948
+    second: messy-export_41
+  - first:
+      213: -7571441033861251544
+    second: messy-export_42
+  - first:
+      213: -3493384408340583223
+    second: messy-export_43
+  - first:
+      213: 3516703373791934413
+    second: messy-export_44
+  - first:
+      213: 6843210496391198243
+    second: messy-export_45
+  - first:
+      213: 6348188946598678132
+    second: messy-export_46
+  - first:
+      213: -6634870905157799255
+    second: messy-export_47
+  - first:
+      213: -5228315415777641684
+    second: messy-export_48
+  - first:
+      213: 3003604304275656016
+    second: messy-export_49
+  - first:
+      213: 1209770326675126937
+    second: messy-export_50
+  - first:
+      213: 2740700642072436949
+    second: messy-export_51
+  - first:
+      213: 2438169035976384026
+    second: messy-export_52
+  - first:
+      213: -1555520178989445608
+    second: messy-export_53
+  - first:
+      213: 7831867686321806700
+    second: messy-export_54
+  - first:
+      213: 2875737129937947882
+    second: messy-export_55
+  - first:
+      213: -5190597180379096495
+    second: messy-export_56
+  - first:
+      213: 8409226849741739217
+    second: messy-export_57
+  - first:
+      213: 333259495700209388
+    second: messy-export_58
+  - first:
+      213: 5328737618476729623
+    second: messy-export_59
+  - first:
+      213: -140315110452544456
+    second: messy-export_60
+  - first:
+      213: -8418142603777402355
+    second: messy-export_61
+  - first:
+      213: 952940144471699693
+    second: messy-export_62
+  - first:
+      213: 5348818172968616674
+    second: messy-export_63
+  - first:
+      213: -1087855604798017772
+    second: messy-export_64
+  - first:
+      213: 3126326965341041083
+    second: messy-export_65
+  - first:
+      213: -1340557242836030497
+    second: messy-export_66
+  - first:
+      213: -289403624787208693
+    second: messy-export_67
+  - first:
+      213: -6948150260711159933
+    second: messy-export_68
+  - first:
+      213: 6044457958227229631
+    second: messy-export_69
+  - first:
+      213: 2295294183402528406
+    second: messy-export_70
+  - first:
+      213: -6118946025445557283
+    second: messy-export_71
+  - first:
+      213: 2354613439794871717
+    second: messy-export_72
+  - first:
+      213: -7043110170650329181
+    second: messy-export_73
+  - first:
+      213: 4957120890508730457
+    second: messy-export_74
+  - first:
+      213: -5754144981229943707
+    second: messy-export_75
+  - first:
+      213: 3947104298150455898
+    second: messy-export_76
+  - first:
+      213: 2022585194266155655
+    second: messy-export_77
+  - first:
+      213: -5357064295508063057
+    second: messy-export_78
+  - first:
+      213: -1981777380972685920
+    second: messy-export_79
+  - first:
+      213: -4415717794410036954
+    second: messy-export_80
+  - first:
+      213: 7078112563688306196
+    second: messy-export_81
+  - first:
+      213: 1026477947419883709
+    second: RUN_4
+  - first:
+      213: -4595600604370871248
+    second: messy-export_83
+  - first:
+      213: -4428103053936802871
+    second: messy-export_84
+  - first:
+      213: -897214181038887592
+    second: messy-export_85
+  - first:
+      213: -8894522602278595749
+    second: RUN_1
+  - first:
+      213: -7885360314672566000
+    second: RUN_2
+  - first:
+      213: -1172617168894116764
+    second: RUN_3
+  - first:
+      213: 5984065708874638847
+    second: messy-export_89
+  - first:
+      213: 8875465112999231219
+    second: RUN_5
+  - first:
+      213: 1055827850574832550
+    second: RUN_6
+  - first:
+      213: -7862820088951941080
+    second: RUN_7
+  - first:
+      213: 7466209045787499503
+    second: messy-export_93
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: messy-export_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 295
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af40ed8428275d60800000000000000
+      internalID: 7878810210572193703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 295
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed88e20d8de9cc840800000000000000
+      internalID: 5245742320022620382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 295
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5604ce6595aeff70800000000000000
+      internalID: 9222991148128405083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 295
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d84ec65704f941f0800000000000000
+      internalID: -1060047924910733102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_4
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 295
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7f866d3b020ee10800000000000000
+      internalID: 2224814172689463266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 295
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edd8f49e8b393020800000000000000
+      internalID: 2321952566456933864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_6
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 295
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2167a3c2e92af9f50800000000000000
+      internalID: 6890404755130709522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_7
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 295
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f09e0799f444190800000000000000
+      internalID: -7979165119350763694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_8
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 295
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680d25b3a115eefa0800000000000000
+      internalID: -5769584899508744058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_9
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 295
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbf898762a0e4980800000000000000
+      internalID: -8552887481981666381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_10
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 288
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2edfc433f7806a80800000000000000
+      internalID: -8475625020078432724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_11
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 295
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13997f2ed9adec850800000000000000
+      internalID: 6399292492192651569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_12
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 295
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e8ca37d173827d0800000000000000
+      internalID: -2943041756852351349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_13
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 269
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581d06aa216313220800000000000000
+      internalID: 2463809924944155013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_14
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 269
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50049d0b6e188930800000000000000
+      internalID: 4145596902132678747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_15
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 309
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2d07f37d0c53970800000000000000
+      internalID: 8734099083069805266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_16
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 269
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0722fc95e023dc0800000000000000
+      internalID: -3660847768208772889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_17
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 310
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cfb733f58c280d0800000000000000
+      internalID: -3421952455636943718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_18
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 301
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4872a86e78cc1d6e0800000000000000
+      internalID: -1814444290793134204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_19
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 269
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a5f1751ff8f4eb0800000000000000
+      internalID: -4733406416631539161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_20
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 305
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1552f041814edc0800000000000000
+      internalID: -3610734526811778566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_21
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 267
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3340b1e64348e52b0800000000000000
+      internalID: -5593888326427147213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_22
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 282
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0779c5a2eee164090800000000000000
+      internalID: -8050713275616422032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_23
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 227
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee83a1395661fc80800000000000000
+      internalID: -8290732905741447444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_24
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 264
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa16d74a5c384030800000000000000
+      internalID: 3479097070593645219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_25
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 275
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed78beba74ef8c640800000000000000
+      internalID: 5100606161777559518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_26
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 264
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e7d71ff5e1de1a0800000000000000
+      internalID: -6778728466700468732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_27
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 227
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c88a88593be4c650800000000000000
+      internalID: 6252380814228228295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_28
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 227
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0195d11bba9faa450800000000000000
+      internalID: 6100963161032972560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_29
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 227
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b913f30dfc9e1e700800000000000000
+      internalID: 567992106786697627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_30
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 258
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5873bb4b3bf80ee70800000000000000
+      internalID: 9142465245556193157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_31
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 227
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea087d82adae5b10800000000000000
+      internalID: 1972204600504617706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_32
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 227
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cbd3ea6c7334690800000000000000
+      internalID: -7619184818114413450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_33
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 227
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45479c94a31a1f50800000000000000
+      internalID: 6852811380720354637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_34
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 252
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f4c7775d8747af0800000000000000
+      internalID: -399561608701128852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_35
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 227
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae447d8c0d1cab640800000000000000
+      internalID: 5096599030790046954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_36
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 227
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b315a336f32527ef0800000000000000
+      internalID: -111936608529657541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 227
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4208fd6af05d110800000000000000
+      internalID: 1284950478072849615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_38
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 227
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68844965c136f6b40800000000000000
+      internalID: 5435672248622270598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_39
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 244
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80329d96317e3f8e0800000000000000
+      internalID: -1660729767003348216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_40
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 154
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c289a2116e21d6f0800000000000000
+      internalID: -661696675786947904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_41
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 198
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f3ac32317c47480800000000000000
+      internalID: -8902271678385864948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_42
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 205
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e32e2be76dce690800000000000000
+      internalID: -7571441033861251544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_43
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 200
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cca8fca361058fc0800000000000000
+      internalID: -3493384408340583223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_44
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 154
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7394f0617ddc030800000000000000
+      internalID: 3516703373791934413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_45
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 154
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3263f9880b7f7fe50800000000000000
+      internalID: 6843210496391198243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_46
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 154
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e4319763c491850800000000000000
+      internalID: 6348188946598678132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_47
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 192
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2be7790143ce3a0800000000000000
+      internalID: -6634870905157799255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_48
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 154
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bffd484da4177b0800000000000000
+      internalID: -5228315415777641684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_49
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 154
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d4f227332fea920800000000000000
+      internalID: 3003604304275656016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_50
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 135
+        width: 26
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a7745d3b7f9c010800000000000000
+      internalID: 1209770326675126937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_51
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 187
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0a96e86bce80620800000000000000
+      internalID: 2740700642072436949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_52
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 159
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e9abbf1dd16d120800000000000000
+      internalID: 2438169035976384026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_53
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 168
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ec16283aea96ae0800000000000000
+      internalID: -1555520178989445608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_54
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 164
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d521b6a2260bc60800000000000000
+      internalID: 7831867686321806700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_55
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 156
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec4a51feaba8e720800000000000000
+      internalID: 2875737129937947882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_56
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 154
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a1c5b8d5b47f7b0800000000000000
+      internalID: -5190597180379096495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_57
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 90
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4988e044393b470800000000000000
+      internalID: 8409226849741739217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_58
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 153
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee9c33eeb9ff9400800000000000000
+      internalID: 333259495700209388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_59
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 90
+        width: 57
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715019291aa73f940800000000000000
+      internalID: 5328737618476729623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_60
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 155
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c3bd486208d0ef0800000000000000
+      internalID: -140315110452544456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_61
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 90
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a144137efbc2b80800000000000000
+      internalID: -8418142603777402355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_62
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 147
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0f1733306893d00800000000000000
+      internalID: 952940144471699693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_63
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 150
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2c2fff9c1da3a40800000000000000
+      internalID: 5348818172968616674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_64
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 90
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fa815571927e0f0800000000000000
+      internalID: -1087855604798017772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_65
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 90
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1b0ec9fc1f26b20800000000000000
+      internalID: 3126326965341041083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_66
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 90
+        width: 19
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb6eab4a42656de0800000000000000
+      internalID: -1340557242836030497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_67
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 132
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0619d3cfe4dbfbf0800000000000000
+      internalID: -289403624787208693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_68
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 131
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38706489626339f90800000000000000
+      internalID: -6948150260711159933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_69
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 90
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbbae3fc7a32e350800000000000000
+      internalID: 6044457958227229631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_70
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 90
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e5ab816e58adf10800000000000000
+      internalID: 2295294183402528406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_71
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 127
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb77896203251ba0800000000000000
+      internalID: -6118946025445557283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 90
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad755eb2744da020800000000000000
+      internalID: 2354613439794871717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_73
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 90
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af3274ad98d14e90800000000000000
+      internalID: -7043110170650329181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_74
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 128
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950e07b9f2b3bc440800000000000000
+      internalID: 4957120890508730457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_75
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 127
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56441b750ab2520b0800000000000000
+      internalID: -5754144981229943707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_76
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 90
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5aecae427ee6c630800000000000000
+      internalID: 3947104298150455898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_77
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 90
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ad230a48aa11c10800000000000000
+      internalID: 2022585194266155655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_78
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 90
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac405bf762e7a5b0800000000000000
+      internalID: -5357064295508063057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_79
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 90
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5183fc8ff4f74e0800000000000000
+      internalID: -1981777380972685920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_80
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 114
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62181dbbf0838b2c0800000000000000
+      internalID: -4415717794410036954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_81
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 110
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416fede00e18a3260800000000000000
+      internalID: 7078112563688306196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RUN_4
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 14
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8fbb13148ce3e00800000000000000
+      internalID: 1026477947419883709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_83
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 73
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c57ee49952930c0800000000000000
+      internalID: -4595600604370871248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_84
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 75
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c34649cbb73c82c0800000000000000
+      internalID: -4428103053936802871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_85
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 73
+        width: 8
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5377159, y: 0.56857646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85debbbb4747c83f0800000000000000
+      internalID: -897214181038887592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RUN_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 14
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53508481de409480800000000000000
+      internalID: -8894522602278595749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RUN_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 14
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011bafd7292919290800000000000000
+      internalID: -7885360314672566000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RUN_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 14
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cba8ec5e60abfe0800000000000000
+      internalID: -1172617168894116764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_89
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 77
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5a11aae0cab0350800000000000000
+      internalID: 5984065708874638847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RUN_5
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 14
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fef0bcfe7cfb2b70800000000000000
+      internalID: 8875465112999231219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RUN_6
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 14
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a32a7906dd07ae00800000000000000
+      internalID: 1055827850574832550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RUN_7
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 14
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828d631c9c6a1e290800000000000000
+      internalID: -7862820088951941080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: messy-export_93
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 77
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febd8f8c19d4d9760800000000000000
+      internalID: 7466209045787499503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
