@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     [SerializeField] private LayerMask collidableLM;
     [SerializeField] private float physicsOverlapTolerance;
 
-    public delegate void PlayerMove();
+    public delegate void PlayerMove(Vector3 pos);
     public static event PlayerMove OnMove;
 
     private void Awake()
@@ -67,7 +67,7 @@ public class Player : MonoBehaviour
             // the future position succesfully moved, lets move player to it
             // could use something like movetowards or lerp or something
             this.transform.position = futureMovementPosition.transform.position;
-            OnMove(); // send out event
+            OnMove(this.transform.position); // send out event
     }
 
     private void UnsuccessfullyMove()
