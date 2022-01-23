@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -65,13 +66,22 @@ public class GameManager : MonoBehaviour
     private void OnEnable()
     {
         Player.OnMove += PlayerMoved;
+        SceneManagement.SceneUnloading += Init;
     }
 
     private void OnDisable()
     {
         Player.OnMove -= PlayerMoved;
+        SceneManagement.SceneUnloading -= Init;
     }
     #endregion
+
+    public void FailLevel()
+    {
+        string s = SceneManager.GetSceneAt(1).name; // the currently additively loaded scene
+        SceneManagement.instance.ReceiveUnload(s);
+        SceneManagement.instance.ReceiveLoad(s);
+    }
 
     #region Movement
     private void PlayerMoved(Vector3 playersNewPos)

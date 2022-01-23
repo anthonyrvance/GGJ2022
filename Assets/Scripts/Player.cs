@@ -21,6 +21,18 @@ public class Player : MonoBehaviour
         futureMovementPosition.transform.parent = null;
     }
 
+    #region Subscriptions
+    private void OnEnable()
+    {
+        MovementButtonHandler.MovementButtonPressed += MoveFutureMovementPosition;
+    }
+
+    private void OnDisable()
+    {
+        MovementButtonHandler.MovementButtonPressed -= MoveFutureMovementPosition;
+    }
+    #endregion
+
     private void Update()
     {
         // animation?

@@ -29,7 +29,7 @@ public class TileObject : MonoBehaviour
                 break;
             case ObjectType.FAILER:
                 Debug.Log("failer was hit");
-
+                GameManager.instance.FailLevel();
                 break;
             case ObjectType.PASSER:
                 Debug.Log("passer was hit");
