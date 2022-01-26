@@ -148,9 +148,10 @@ public class GameManager : MonoBehaviour
     {
         for (int i = 0; i < list.Count; i++)
         {
-            if (Vector3.Distance(list[i].transform.position, tileToCheck) <= 1.0f)
+            if (Vector3.Distance(list[i].transform.position, tileToCheck) <= 0.1f)
             {
                 Debug.Log("the fire is going to hit something on an adjacent tile...");
+                Debug.Log(Vector3.Distance(list[i].transform.position, tileToCheck));
                 if (list[i].GetComponent<TileObject>() != null)
                 {
                     list[i].GetComponent<TileObject>().ReceiveFire();
