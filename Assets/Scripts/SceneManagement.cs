@@ -17,6 +17,7 @@ public class SceneManagement : MonoBehaviour
 
     [Header("LEVELS")]
     [SerializeField] private Object[] levels;
+    [SerializeField] private int currentSceneIndex;
 
     public delegate void SceneUnload();
     public static event SceneUnload SceneUnloading;
@@ -31,6 +32,29 @@ public class SceneManagement : MonoBehaviour
         {
             instance = this;
         }
+
+        currentSceneIndex = 0;
+    }
+
+    public void ReloadCurrent()
+    {
+        StartCoroutine(SceneAdditiveUnload(levels[currentSceneIndex].name));
+        StartCoroutine(SceneAdditiveLoad(levels[currentSceneIndex].name));
+    }
+
+    public void GoToNextScene()
+    {
+        if (currentSceneIndex != 0)
+            StartCoroutine(SceneAdditiveUnload(levels[currentSceneIndex].name));
+
+        ++currentSceneIndex;
+        StartCoroutine(SceneAdditiveLoad(levels[currentSceneIndex].name));
+    }
+
+    public void GoBackToMainMenu()
+    {
+        StartCoroutine(SceneAdditiveUnload(levels[currentSceneIndex].name));
+        currentSceneIndex = 0;
     }
 
     public void ReceiveLoad(string sceneName)

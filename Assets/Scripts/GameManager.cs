@@ -76,12 +76,22 @@ public class GameManager : MonoBehaviour
     }
     #endregion
 
+    #region Pass/Fail/Return
     public void FailLevel()
     {
-        string s = SceneManager.GetSceneAt(1).name; // the currently additively loaded scene
-        SceneManagement.instance.ReceiveUnload(s);
-        SceneManagement.instance.ReceiveLoad(s);
+        SceneManagement.instance.ReloadCurrent();
     }
+
+    public void PassLevel()
+    {
+        SceneManagement.instance.GoToNextScene();
+    }
+
+    public void GoBackToMainMenu()
+    {
+        SceneManagement.instance.GoBackToMainMenu();
+    }
+    #endregion
 
     #region Movement
     private void PlayerMoved(Vector3 playersNewPos)

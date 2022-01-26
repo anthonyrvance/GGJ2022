@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class MenuInput : MonoBehaviour
 {
-    [SerializeField] private string sceneName;
-
     void Update()
     {
         if (Input.anyKeyDown)
         {
-            SceneManagement.instance.ReceiveLoad(sceneName);
+            SceneManagement.instance.GoToNextScene();
         }
     }
 }

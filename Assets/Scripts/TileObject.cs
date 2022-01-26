@@ -33,7 +33,7 @@ public class TileObject : MonoBehaviour
                 break;
             case ObjectType.PASSER:
                 Debug.Log("passer was hit");
-
+                GameManager.instance.PassLevel();
                 break;
             default:
                 Debug.LogWarning("Unknown objecttype");
