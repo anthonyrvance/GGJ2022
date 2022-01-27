@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private List<GameObject> destructibleObjects;
     [SerializeField] private List<GameObject> failerObjects;
     [SerializeField] private List<GameObject> passerObjects;
+    [SerializeField] private GameObject firePrefab;
 
     #region "setters"
     public void AddToDestructibleObjects(GameObject incGO)
@@ -141,6 +142,8 @@ public class GameManager : MonoBehaviour
         CompareObjectsInListToPosition(destructibleObjects, westTile);
         CompareObjectsInListToPosition(failerObjects, westTile);
         CompareObjectsInListToPosition(passerObjects, westTile);
+
+        ShootOutFire(origin, northTile, eastTile, southTile, westTile);
     }
 
     // an ugly copy of member list
@@ -158,10 +161,41 @@ public class GameManager : MonoBehaviour
                 }
                 else
                 {
-                    Debug.LogError("the first hit a tile without a tileobject script... weird");
+                    Debug.LogError("the fire hit a tile without a tileobject script... weird");
                 }
             }
         }
+    }
+
+    // giving up on clean-ish code starting now
+    private void ShootOutFire(Vector3 center, Vector3 north, Vector3 east, Vector3 south, Vector3 west)
+    {
+        GameObject northFire = Instantiate(firePrefab, center, Quaternion.identity);
+        GameObject eastFire = Instantiate(firePrefab, center, Quaternion.identity);
+        GameObject southFire = Instantiate(firePrefab, center, Quaternion.identity);
+        GameObject westFire = Instantiate(firePrefab, center, Quaternion.identity);
+
+        StartCoroutine(ScaleUp(northFire, north));
+        StartCoroutine(ScaleUp(eastFire, east));
+        StartCoroutine(ScaleUp(southFire, south));
+        StartCoroutine(ScaleUp(westFire, west));
+    }
+
+    private IEnumerator ScaleUp(GameObject fire, Vector3 tile)
+    {
+        float elapsedTime = 0.0f;
+        fire.transform.localScale = new Vector3(0, 0);
+
+        while (elapsedTime < 1.0f)
+        {
+            float val = Mathf.Lerp(0, 1, elapsedTime / 1);
+            fire.transform.localScale = new Vector3(val, val);
+            fire.transform.position = Vector3.MoveTowards(fire.transform.position, tile, 0.1f);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        Destroy(fire.gameObject);
     }
     #endregion
 }

@@ -50,3 +50,4 @@ MonoBehaviour:
   destructibleObjects: []
   failerObjects: []
   passerObjects: []
+  firePrefab: {fileID: 6318310888641631582, guid: ee2e4e6f8f363ec418fbb5dad1715bbe, type: 3}
