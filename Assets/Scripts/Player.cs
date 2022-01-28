@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     [Header("Sprite")]
     [SerializeField] private GameObject spriteGO;
+    [SerializeField] private Animator animator;
 
     [Header("Movement")]
     [SerializeField] private GameObject futureMovementPosition;
@@ -80,6 +81,8 @@ public class Player : MonoBehaviour
             // could use something like movetowards or lerp or something
             this.transform.position = futureMovementPosition.transform.position;
             OnMove(this.transform.position); // send out event
+
+        animator.SetTrigger("OnMove");
     }
 
     private void UnsuccessfullyMove()
