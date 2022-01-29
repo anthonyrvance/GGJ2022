@@ -190,7 +190,7 @@ public class GameManager : MonoBehaviour
         {
             float val = Mathf.Lerp(0, 1, elapsedTime / 1);
             fire.transform.localScale = new Vector3(val, val);
-            fire.transform.position = Vector3.MoveTowards(fire.transform.position, tile, 0.1f);
+            fire.transform.position = Vector3.MoveTowards(fire.transform.position, tile, 3.5f * Time.deltaTime);
             elapsedTime += Time.deltaTime;
             yield return null;
         }

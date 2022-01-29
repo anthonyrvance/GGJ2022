@@ -34,7 +34,7 @@ public class MainMenuBBText : MonoBehaviour
     {
         RectTransform orgRT = this.gameObject.GetComponent<RectTransform>();
         Vector3 orgPos = orgRT.localPosition;
-        int x = Random.Range(-100, 101), y = Random.Range(0, 21);
+        int x = Random.Range(100, 130), y = Random.Range(-50, -80);
         orgRT.localPosition = new Vector3(x, y);
         
         messageText.text = messageOptions[Random.Range(0, messageOptions.Count)];
