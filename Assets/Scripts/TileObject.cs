@@ -25,7 +25,7 @@ public class TileObject : MonoBehaviour
         {
             case ObjectType.DESTRUCTIBLE:
                 Debug.Log("destructible was hit");
-
+                StartCoroutine(DieAfterTime());
                 break;
             case ObjectType.FAILER:
                 Debug.Log("failer was hit");
@@ -39,6 +39,20 @@ public class TileObject : MonoBehaviour
                 Debug.LogWarning("Unknown objecttype");
                 break;
         }
+
+        Animator animator = GetComponent<Animator>();
+        if (animator != null)
+        {
+            animator.SetBool("Die", true);
+        }
+    }
+
+    private IEnumerator DieAfterTime()
+    {
+        yield return new WaitForSeconds(2.0f);
+        //Destroy(this.gameObject); // cant do this because gamemananger loses track
+        GetComponent<SpriteRenderer>().enabled = false;
+        GetComponent<BoxCollider2D>().enabled = false;
     }
 
     private void AddOurselfToGameManager()
