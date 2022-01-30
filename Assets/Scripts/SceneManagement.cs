@@ -21,6 +21,8 @@ public class SceneManagement : MonoBehaviour
 
     public delegate void SceneUnload();
     public static event SceneUnload SceneUnloading;
+    public delegate void SceneLoad();
+    public static event SceneLoad SceneLoaded;
 
     private void Awake()
     {
@@ -71,6 +73,7 @@ public class SceneManagement : MonoBehaviour
     {
         yield return StartCoroutine(PreOp());
         yield return StartCoroutine(Load(sceneName));
+        SceneLoaded(); // event
         yield return StartCoroutine(PostOp());
     }
 

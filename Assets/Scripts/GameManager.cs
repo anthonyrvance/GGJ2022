@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.Tilemaps;
 
 public class GameManager : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private List<GameObject> destructibleObjects;
     [SerializeField] private List<GameObject> failerObjects;
     [SerializeField] private List<GameObject> passerObjects;
+    [SerializeField] private List<GameObject> collateralObjects;
     [SerializeField] private GameObject firePrefab;
 
     #region "setters"
@@ -32,6 +34,10 @@ public class GameManager : MonoBehaviour
     public void AddToPasserObjects(GameObject incGO)
     {
         passerObjects.Add(incGO);
+    }
+    public void AddToCollateralObjects(GameObject incGO)
+    {
+        collateralObjects.Add(incGO);
     }
     #endregion
 
@@ -49,6 +55,7 @@ public class GameManager : MonoBehaviour
         destructibleObjects = new List<GameObject>();
         failerObjects = new List<GameObject>();
         passerObjects = new List<GameObject>();
+        collateralObjects = new List<GameObject>();
 
         Init();
     }
@@ -61,6 +68,12 @@ public class GameManager : MonoBehaviour
         destructibleObjects.Clear();
         failerObjects.Clear();
         passerObjects.Clear();
+        collateralObjects.Clear();
+    }
+
+    private void FindTileMap()
+    {
+
     }
 
     #region Subscriptions
@@ -68,12 +81,14 @@ public class GameManager : MonoBehaviour
     {
         Player.OnMove += PlayerMoved;
         SceneManagement.SceneUnloading += Init;
+        SceneManagement.SceneLoaded += FindTileMap;
     }
 
     private void OnDisable()
     {
         Player.OnMove -= PlayerMoved;
         SceneManagement.SceneUnloading -= Init;
+        SceneManagement.SceneLoaded -= FindTileMap;
     }
     #endregion
 
@@ -97,6 +112,7 @@ public class GameManager : MonoBehaviour
     #region Movement
     private void PlayerMoved(Vector3 playersNewPos)
     {
+        
         // check moves count
         --currentMovesLeft;
         if (currentMovesLeft <= 0)
@@ -127,21 +143,25 @@ public class GameManager : MonoBehaviour
         CompareObjectsInListToPosition(destructibleObjects, northTile);
         CompareObjectsInListToPosition(failerObjects, northTile);
         CompareObjectsInListToPosition(passerObjects, northTile);
+        CompareObjectsInListToPosition(collateralObjects, northTile);
 
         Vector3 eastTile = origin + new Vector3(1.0f, 0.0f, 0.0f);
         CompareObjectsInListToPosition(destructibleObjects, eastTile);
         CompareObjectsInListToPosition(failerObjects, eastTile);
         CompareObjectsInListToPosition(passerObjects, eastTile);
+        CompareObjectsInListToPosition(collateralObjects, eastTile);
 
         Vector3 southTile = origin + new Vector3(0.0f, -1.0f, 0.0f);
         CompareObjectsInListToPosition(destructibleObjects, southTile);
         CompareObjectsInListToPosition(failerObjects, southTile);
         CompareObjectsInListToPosition(passerObjects, southTile);
+        CompareObjectsInListToPosition(collateralObjects, southTile);
 
         Vector3 westTile = origin + new Vector3(-1.0f, 0.0f, 0.0f);
         CompareObjectsInListToPosition(destructibleObjects, westTile);
         CompareObjectsInListToPosition(failerObjects, westTile);
         CompareObjectsInListToPosition(passerObjects, westTile);
+        CompareObjectsInListToPosition(collateralObjects, westTile);
 
         ShootOutFire(origin, northTile, eastTile, southTile, westTile);
     }

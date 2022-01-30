@@ -6,15 +6,26 @@ public enum ObjectType
 {
     DESTRUCTIBLE,
     FAILER,
-    PASSER
+    PASSER,
+    COLLATERAL
 }
 
 public class TileObject : MonoBehaviour
 {
     [SerializeField] private ObjectType objectType;
+    private CollateralFire parentCollateral;
+    private bool areWeOnFire;
+
+    public bool AreWeOnFire
+    {
+        get { return areWeOnFire; }
+        set { areWeOnFire = value; }
+    }
 
     private void Start()
     {
+        areWeOnFire = false;
+        parentCollateral = GetComponentInParent<CollateralFire>();
         // in initial testing this has to be in start to game manager can setup first
         AddOurselfToGameManager();
     }
@@ -24,16 +35,17 @@ public class TileObject : MonoBehaviour
         switch (objectType)
         {
             case ObjectType.DESTRUCTIBLE:
-                Debug.Log("destructible was hit");
                 StartCoroutine(DieAfterTime());
                 break;
             case ObjectType.FAILER:
-                Debug.Log("failer was hit");
                 GameManager.instance.FailLevel();
                 break;
             case ObjectType.PASSER:
-                Debug.Log("passer was hit");
                 GameManager.instance.PassLevel();
+                break;
+            case ObjectType.COLLATERAL:
+                if (!areWeOnFire)
+                    parentCollateral.SpreadFire(this);
                 break;
             default:
                 Debug.LogWarning("Unknown objecttype");
@@ -67,6 +79,9 @@ public class TileObject : MonoBehaviour
                 break;
             case ObjectType.PASSER:
                 GameManager.instance.AddToPasserObjects(this.gameObject);
+                break;
+            case ObjectType.COLLATERAL:
+                GameManager.instance.AddToCollateralObjects(this.gameObject);
                 break;
             default:
                 Debug.LogWarning("Unknown objecttype");
