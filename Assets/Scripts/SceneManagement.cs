@@ -46,6 +46,15 @@ public class SceneManagement : MonoBehaviour
 
     public void GoToNextScene()
     {
+        if (currentSceneIndex + 1 == levels.Length)
+        {
+            StartCoroutine(SceneAdditiveUnload(levels[currentSceneIndex].name));
+            currentSceneIndex = 0;
+            GameManager.instance.GoBackToMainMenu();
+            GoBackToMainMenu();
+            return;
+        }
+
         if (currentSceneIndex != 0)
             StartCoroutine(SceneAdditiveUnload(levels[currentSceneIndex].name));
 

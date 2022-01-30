@@ -9,15 +9,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 1643460f610460446a9b7a7a914de3b0
   - enabled: 1
-    path: Assets/Scenes/AV Sandbox.unity
-    guid: 8174bece8c5e3ce4ebf62a70992e37f1
+    path: Assets/Scenes/Level Tutorial.unity
+    guid: 59774041567ac444482949c7f726b4e3
   - enabled: 1
     path: Assets/Scenes/Level 1.unity
-    guid: 63d33793aa9e72d4eb4cedded01f1f42
+    guid: 06d969fddf37eee49bd9625bb7369be6
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 57a5a30939ea6934f8c55df6601eb6fa
   - enabled: 1
     path: Assets/Scenes/Level 3.unity
     guid: 9d0c1d22fea4ff748804e718208e0c69
   - enabled: 1
-    path: Assets/Scenes/Level 2.unity
-    guid: 57a5a30939ea6934f8c55df6601eb6fa
+    path: Assets/Scenes/Level 4.unity
+    guid: 1c6c14b3a651f9640ad0ebab039d0dbc
+  - enabled: 1
+    path: Assets/Scenes/Level 5.unity
+    guid: 6c5a005c8caa1c04e94f494ce8babce7
   m_configObjects: {}

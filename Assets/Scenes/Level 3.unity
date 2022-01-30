@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414727, b: 0.121078536, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7622,13 +7622,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 902982083191837473, guid: ecf2f4a2051fa5e4fbba58a932451850, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 902982083191837473, guid: ecf2f4a2051fa5e4fbba58a932451850, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.55
+      objectReference: {fileID: 0}
     - target: {fileID: 902982084069126465, guid: ecf2f4a2051fa5e4fbba58a932451850, type: 3}
       propertyPath: m_Name
       value: Dialogue Box
       objectReference: {fileID: 0}
     - target: {fileID: 902982084069126465, guid: ecf2f4a2051fa5e4fbba58a932451850, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 902982084069126466, guid: ecf2f4a2051fa5e4fbba58a932451850, type: 3}
       propertyPath: m_RootOrder
@@ -7676,7 +7684,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 902982084371229672, guid: ecf2f4a2051fa5e4fbba58a932451850, type: 3}
       propertyPath: dialogue
-      value: YPOOOOOOO
+      value: Light the grill!
+      objectReference: {fileID: 0}
+    - target: {fileID: 902982084371229679, guid: ecf2f4a2051fa5e4fbba58a932451850, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecf2f4a2051fa5e4fbba58a932451850, type: 3}

@@ -22,6 +22,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] private List<GameObject> collateralObjects;
     [SerializeField] private GameObject firePrefab;
 
+    [Header("Stats")]
+    [SerializeField] private int bestMoves;
+    [SerializeField] private int movesThisPlay;
+    [SerializeField] private TextMeshProUGUI highScoreText;
+
     #region "setters"
     public void AddToDestructibleObjects(GameObject incGO)
     {
@@ -56,6 +61,14 @@ public class GameManager : MonoBehaviour
         failerObjects = new List<GameObject>();
         passerObjects = new List<GameObject>();
         collateralObjects = new List<GameObject>();
+
+        if (!PlayerPrefs.HasKey("HighScore"))
+        {
+            PlayerPrefs.SetInt("HighScore", 999);
+        }
+        movesThisPlay = 0;
+        bestMoves = PlayerPrefs.GetInt("HighScore");
+        highScoreText.text = "Your high score for least amount of moves: " + bestMoves;
 
         Init();
     }
@@ -105,14 +118,24 @@ public class GameManager : MonoBehaviour
 
     public void GoBackToMainMenu()
     {
-        SceneManagement.instance.GoBackToMainMenu();
+        int temp = PlayerPrefs.GetInt("HighScore");
+
+        if (movesThisPlay < temp)
+        {
+            bestMoves = movesThisPlay;
+            PlayerPrefs.SetInt("HighScore", bestMoves);
+        }
+
+        highScoreText.text = "Your high score for least amount of moves: " + bestMoves;
+        movesThisPlay = 0;
     }
     #endregion
 
     #region Movement
     private void PlayerMoved(Vector3 playersNewPos)
     {
-        
+        ++movesThisPlay;
+
         // check moves count
         --currentMovesLeft;
         if (currentMovesLeft <= 0)
