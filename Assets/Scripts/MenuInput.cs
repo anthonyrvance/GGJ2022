@@ -6,8 +6,9 @@ public class MenuInput : MonoBehaviour
 {
     void Update()
     {
-        if (Input.anyKeyDown)
+        if (Input.anyKeyDown || Input.GetKeyDown(KeyCode.Space))
         {
+            Debug.LogError("hello");
             SceneManagement.instance.GoToNextScene();
         }
     }

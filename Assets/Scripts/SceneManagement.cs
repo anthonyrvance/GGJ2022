@@ -16,7 +16,7 @@ public class SceneManagement : MonoBehaviour
     [SerializeField] private GameObject gameplayUI;
 
     [Header("LEVELS")]
-    [SerializeField] private Object[] levels;
+    [SerializeField] private string[] levels;
     [SerializeField] private int currentSceneIndex;
 
     public delegate void SceneUnload();
@@ -40,15 +40,17 @@ public class SceneManagement : MonoBehaviour
 
     public void ReloadCurrent()
     {
-        StartCoroutine(SceneAdditiveUnload(levels[currentSceneIndex].name));
-        StartCoroutine(SceneAdditiveLoad(levels[currentSceneIndex].name));
+        StartCoroutine(SceneAdditiveUnload(levels[currentSceneIndex]));
+        StartCoroutine(SceneAdditiveLoad(levels[currentSceneIndex]));
     }
 
     public void GoToNextScene()
     {
+        Debug.LogError("gotonextscene");
+        Debug.LogError(levels[0]);
         if (currentSceneIndex + 1 == levels.Length)
         {
-            StartCoroutine(SceneAdditiveUnload(levels[currentSceneIndex].name));
+            StartCoroutine(SceneAdditiveUnload(levels[currentSceneIndex]));
             currentSceneIndex = 0;
             GameManager.instance.GoBackToMainMenu();
             GoBackToMainMenu();
@@ -56,15 +58,15 @@ public class SceneManagement : MonoBehaviour
         }
 
         if (currentSceneIndex != 0)
-            StartCoroutine(SceneAdditiveUnload(levels[currentSceneIndex].name));
+            StartCoroutine(SceneAdditiveUnload(levels[currentSceneIndex]));
 
         ++currentSceneIndex;
-        StartCoroutine(SceneAdditiveLoad(levels[currentSceneIndex].name));
+        StartCoroutine(SceneAdditiveLoad(levels[currentSceneIndex]));
     }
 
     public void GoBackToMainMenu()
     {
-        StartCoroutine(SceneAdditiveUnload(levels[currentSceneIndex].name));
+        StartCoroutine(SceneAdditiveUnload(levels[currentSceneIndex]));
         currentSceneIndex = 0;
     }
 

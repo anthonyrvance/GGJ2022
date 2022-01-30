@@ -1188,13 +1188,13 @@ MonoBehaviour:
   mainMenuUI: {fileID: 681187489}
   gameplayUI: {fileID: 571696013}
   levels:
-  - {fileID: 102900000, guid: 1643460f610460446a9b7a7a914de3b0, type: 3}
-  - {fileID: 102900000, guid: 59774041567ac444482949c7f726b4e3, type: 3}
-  - {fileID: 102900000, guid: 06d969fddf37eee49bd9625bb7369be6, type: 3}
-  - {fileID: 102900000, guid: 57a5a30939ea6934f8c55df6601eb6fa, type: 3}
-  - {fileID: 102900000, guid: 9d0c1d22fea4ff748804e718208e0c69, type: 3}
-  - {fileID: 102900000, guid: 1c6c14b3a651f9640ad0ebab039d0dbc, type: 3}
-  - {fileID: 102900000, guid: 6c5a005c8caa1c04e94f494ce8babce7, type: 3}
+  - Main Menu
+  - Level Tutorial
+  - Level 1
+  - Level 2
+  - Level 3
+  - Level 4
+  - Level 5
   currentSceneIndex: 0
 --- !u!4 &391073544
 Transform:
