@@ -50,4 +50,8 @@ MonoBehaviour:
   destructibleObjects: []
   failerObjects: []
   passerObjects: []
+  collateralObjects: []
   firePrefab: {fileID: 6318310888641631582, guid: ee2e4e6f8f363ec418fbb5dad1715bbe, type: 3}
+  bestMoves: 0
+  movesThisPlay: 0
+  highScoreText: {fileID: 0}

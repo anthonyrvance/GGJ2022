@@ -16,13 +16,21 @@ public class SceneManagement : MonoBehaviour
     [SerializeField] private GameObject gameplayUI;
 
     [Header("LEVELS")]
-    [SerializeField] private string[] levels;
+    [SerializeField] private List<string> currentPlaythroughLevels;
+    [SerializeField] private List<string> campaignOneLevels;
+    [SerializeField] private List<string> campaignTwoLevels;
     [SerializeField] private int currentSceneIndex;
 
     public delegate void SceneUnload();
     public static event SceneUnload SceneUnloading;
     public delegate void SceneLoad();
     public static event SceneLoad SceneLoaded;
+
+    public List<string> CurrentPlaythroughLevels
+    {
+        get { return currentPlaythroughLevels; }
+        set { currentPlaythroughLevels = value; }
+    }
 
     private void Awake()
     {
@@ -40,17 +48,15 @@ public class SceneManagement : MonoBehaviour
 
     public void ReloadCurrent()
     {
-        StartCoroutine(SceneAdditiveUnload(levels[currentSceneIndex]));
-        StartCoroutine(SceneAdditiveLoad(levels[currentSceneIndex]));
+        StartCoroutine(SceneAdditiveUnload(currentPlaythroughLevels[currentSceneIndex]));
+        StartCoroutine(SceneAdditiveLoad(currentPlaythroughLevels[currentSceneIndex]));
     }
 
     public void GoToNextScene()
     {
-        Debug.LogError("gotonextscene");
-        Debug.LogError(levels[0]);
-        if (currentSceneIndex + 1 == levels.Length)
+        if (currentSceneIndex + 1 == currentPlaythroughLevels.Count)
         {
-            StartCoroutine(SceneAdditiveUnload(levels[currentSceneIndex]));
+            StartCoroutine(SceneAdditiveUnload(currentPlaythroughLevels[currentSceneIndex]));
             currentSceneIndex = 0;
             GameManager.instance.GoBackToMainMenu();
             GoBackToMainMenu();
@@ -58,16 +64,15 @@ public class SceneManagement : MonoBehaviour
         }
 
         if (currentSceneIndex != 0)
-            StartCoroutine(SceneAdditiveUnload(levels[currentSceneIndex]));
+            StartCoroutine(SceneAdditiveUnload(currentPlaythroughLevels[currentSceneIndex]));
 
         ++currentSceneIndex;
-        StartCoroutine(SceneAdditiveLoad(levels[currentSceneIndex]));
+        StartCoroutine(SceneAdditiveLoad(currentPlaythroughLevels[currentSceneIndex]));
     }
 
     public void GoBackToMainMenu()
     {
-        StartCoroutine(SceneAdditiveUnload(levels[currentSceneIndex]));
-        currentSceneIndex = 0;
+        StartCoroutine(SceneAdditiveUnload(currentPlaythroughLevels[currentSceneIndex]));
     }
 
     public void ReceiveLoad(string sceneName)
@@ -78,6 +83,16 @@ public class SceneManagement : MonoBehaviour
     public void ReceiveUnload(string sceneName)
     {
         StartCoroutine(SceneAdditiveUnload(sceneName));
+    }
+
+    public void UseCampaignOneLevels()
+    {
+        currentPlaythroughLevels = campaignOneLevels;
+    }
+
+    public void UseCampaignTwoLevels()
+    {
+        currentPlaythroughLevels = campaignTwoLevels;
     }
 
     private IEnumerator SceneAdditiveLoad(string sceneName)
@@ -98,28 +113,13 @@ public class SceneManagement : MonoBehaviour
     // fade to black
     private IEnumerator PreOp()
     {
-        yield return StartCoroutine(Fade(0.0f, 1.0f));
+        yield return StartCoroutine(Utilities.Fade(canvasGroup, 0.0f, 1.0f, 1.0f));
     }
 
     // fade from black
     private IEnumerator PostOp()
     {
-        yield return StartCoroutine(Fade(1.0f, 0.0f));
-    }
-
-    private IEnumerator Fade(float startValue, float endValue)
-    {
-        float elapsedTime = 0.0f;
-        canvasGroup.alpha = startValue;
-
-        while (elapsedTime < fadeDuration)
-        {
-            canvasGroup.alpha = Mathf.Lerp(startValue, endValue, elapsedTime / fadeDuration);
-            elapsedTime += Time.deltaTime;
-            yield return null;
-        }
-
-        canvasGroup.alpha = endValue;
+        yield return StartCoroutine(Utilities.Fade(canvasGroup, 1.0f, 0.0f, 1.0f));
     }
 
     private IEnumerator Load(string sceneName)

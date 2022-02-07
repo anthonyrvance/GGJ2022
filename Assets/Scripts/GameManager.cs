@@ -27,6 +27,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int movesThisPlay;
     [SerializeField] private TextMeshProUGUI highScoreText;
 
+    [Header("Menu UI")]
+    [SerializeField] private GameObject menuUIpartOne;
+    [SerializeField] private GameObject menuUIpartTwo;
+
     #region "setters"
     public void AddToDestructibleObjects(GameObject incGO)
     {
@@ -86,7 +90,7 @@ public class GameManager : MonoBehaviour
 
     private void FindTileMap()
     {
-
+        // might use this to find a tile we're on?
     }
 
     #region Subscriptions
@@ -128,6 +132,9 @@ public class GameManager : MonoBehaviour
 
         highScoreText.text = "Your high score for least amount of moves: " + bestMoves;
         movesThisPlay = 0;
+
+        menuUIpartOne.SetActive(true);
+        menuUIpartTwo.SetActive(false);
     }
     #endregion
 
