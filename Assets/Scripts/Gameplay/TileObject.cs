@@ -7,13 +7,15 @@ public enum ObjectType
     DESTRUCTIBLE,
     FAILER,
     PASSER,
-    COLLATERAL
+    COLLATERAL,
+    FUSE
 }
 
 public class TileObject : MonoBehaviour
 {
     [SerializeField] private ObjectType objectType;
     private CollateralFire parentCollateral;
+    private Fuse parentFuse;
     private bool areWeOnFire;
 
     public bool AreWeOnFire
@@ -25,7 +27,8 @@ public class TileObject : MonoBehaviour
     private void Start()
     {
         areWeOnFire = false;
-        parentCollateral = GetComponentInParent<CollateralFire>();
+        parentCollateral = GetComponentInParent<CollateralFire>(); // was I assuming this just errors and its ok?
+        parentFuse= GetComponentInParent<Fuse>(); // well maybe I did, ill just do it again hehe
         // in initial testing this has to be in start to game manager can setup first
         AddOurselfToGameManager();
     }
@@ -46,6 +49,10 @@ public class TileObject : MonoBehaviour
             case ObjectType.COLLATERAL:
                 if (!areWeOnFire)
                     parentCollateral.SpreadFire(this);
+                break;
+            case ObjectType.FUSE:
+                // perhaps need a check in case they start fuse again from further in spot
+                parentFuse.PrepFuse(this);
                 break;
             default:
                 Debug.LogWarning("Unknown objecttype");
@@ -82,6 +89,9 @@ public class TileObject : MonoBehaviour
                 break;
             case ObjectType.COLLATERAL:
                 GameManager.instance.AddToCollateralObjects(this.gameObject);
+                break;
+            case ObjectType.FUSE:
+                GameManager.instance.AddToFuseObjects(this.gameObject);
                 break;
             default:
                 Debug.LogWarning("Unknown objecttype");

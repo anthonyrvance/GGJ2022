@@ -51,6 +51,9 @@ MonoBehaviour:
   collidableLM:
     serializedVersion: 2
     m_Bits: 64
+  slipperyLM:
+    serializedVersion: 2
+    m_Bits: 128
   physicsOverlapTolerance: 0.2
 --- !u!1 &3685175819522354710
 GameObject:

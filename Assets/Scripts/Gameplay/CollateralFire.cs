@@ -8,6 +8,10 @@ public class CollateralFire : MonoBehaviour
     [SerializeField] private List<TileObject> collateralChildren;
     [SerializeField] private GameObject firePrefab;
 
+    /// <summary>
+    /// The base tile object receives the start fire event and gets here based on being a collateral type. We'll start a fire and place it into the level's scene (aka not the main menu scene since we are additively load) so that when we reset a level it removes the fires.
+    /// </summary>
+    /// <param name="childOrigin"></param>
     public void SpreadFire(TileObject childOrigin)
     {
         childOrigin.AreWeOnFire = true;
@@ -48,6 +52,5 @@ public class CollateralFire : MonoBehaviour
             --spotsLeftToPutAFire;
             yield return new WaitForSeconds(1.0f);
         }
-
     }
 }

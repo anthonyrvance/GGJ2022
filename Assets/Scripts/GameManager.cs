@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private List<GameObject> failerObjects;
     [SerializeField] private List<GameObject> passerObjects;
     [SerializeField] private List<GameObject> collateralObjects;
+    [SerializeField] private List<GameObject> fuseObjects;
     [SerializeField] private GameObject firePrefab;
 
     [Header("Stats")]
@@ -48,6 +49,10 @@ public class GameManager : MonoBehaviour
     {
         collateralObjects.Add(incGO);
     }
+    public void AddToFuseObjects(GameObject incGO)
+    {
+        fuseObjects.Add(incGO);
+    }
     #endregion
 
     private void Awake()
@@ -65,6 +70,7 @@ public class GameManager : MonoBehaviour
         failerObjects = new List<GameObject>();
         passerObjects = new List<GameObject>();
         collateralObjects = new List<GameObject>();
+        fuseObjects = new List<GameObject>();
 
         if (!PlayerPrefs.HasKey("HighScore"))
         {
@@ -86,6 +92,7 @@ public class GameManager : MonoBehaviour
         failerObjects.Clear();
         passerObjects.Clear();
         collateralObjects.Clear();
+        fuseObjects.Clear();
     }
 
     private void FindTileMap()
@@ -174,24 +181,28 @@ public class GameManager : MonoBehaviour
         CompareObjectsInListToPosition(failerObjects, northTile);
         CompareObjectsInListToPosition(passerObjects, northTile);
         CompareObjectsInListToPosition(collateralObjects, northTile);
+        CompareObjectsInListToPosition(fuseObjects, northTile);
 
         Vector3 eastTile = origin + new Vector3(1.0f, 0.0f, 0.0f);
         CompareObjectsInListToPosition(destructibleObjects, eastTile);
         CompareObjectsInListToPosition(failerObjects, eastTile);
         CompareObjectsInListToPosition(passerObjects, eastTile);
         CompareObjectsInListToPosition(collateralObjects, eastTile);
+        CompareObjectsInListToPosition(fuseObjects, eastTile);
 
         Vector3 southTile = origin + new Vector3(0.0f, -1.0f, 0.0f);
         CompareObjectsInListToPosition(destructibleObjects, southTile);
         CompareObjectsInListToPosition(failerObjects, southTile);
         CompareObjectsInListToPosition(passerObjects, southTile);
         CompareObjectsInListToPosition(collateralObjects, southTile);
+        CompareObjectsInListToPosition(fuseObjects, southTile);
 
         Vector3 westTile = origin + new Vector3(-1.0f, 0.0f, 0.0f);
         CompareObjectsInListToPosition(destructibleObjects, westTile);
         CompareObjectsInListToPosition(failerObjects, westTile);
         CompareObjectsInListToPosition(passerObjects, westTile);
         CompareObjectsInListToPosition(collateralObjects, westTile);
+        CompareObjectsInListToPosition(fuseObjects, westTile);
 
         ShootOutFire(origin, northTile, eastTile, southTile, westTile);
     }

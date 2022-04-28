@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 5.unity
     guid: 6c5a005c8caa1c04e94f494ce8babce7
+  - enabled: 1
+    path: Assets/Scenes/Test Scenes/AV Sandbox.unity
+    guid: 8174bece8c5e3ce4ebf62a70992e37f1
+  - enabled: 1
+    path: Assets/Scenes/Test Scenes/Slip.unity
+    guid: 0c7205b06cb4c15438d216ce910b7d49
   m_configObjects: {}
