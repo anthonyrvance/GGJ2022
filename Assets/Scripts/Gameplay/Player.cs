@@ -14,11 +14,22 @@ public class Player : MonoBehaviour
     [SerializeField] private LayerMask slipperyLM;
     [SerializeField] private float physicsOverlapTolerance;
 
+    [Header("Inventory")]
+    [SerializeField] private Pickup currentPickup;
+
     public delegate void PlayerMove(Vector3 pos);
     public static event PlayerMove OnMove;
 
     private int cachedDirectionForSliding;
     private bool isSliding;
+
+    #region Properties
+    public Pickup CurrentPickup
+    {
+        get => currentPickup;
+        set => currentPickup = value;
+    }
+    #endregion
 
     private void Awake()
     {
@@ -32,11 +43,13 @@ public class Player : MonoBehaviour
     private void OnEnable()
     {
         MovementButtonHandler.MovementButtonPressed += MoveFutureMovementPosition;
+        PickupButtonHandler.PickupButtonPressed += ActivatePickup;
     }
 
     private void OnDisable()
     {
         MovementButtonHandler.MovementButtonPressed -= MoveFutureMovementPosition;
+        PickupButtonHandler.PickupButtonPressed -= ActivatePickup;
     }
     #endregion
 
@@ -45,6 +58,7 @@ public class Player : MonoBehaviour
         // animation?
     }
 
+    #region Movement
     public void MoveFutureMovementPosition(int direction)
     {
         // 0 is up, 1 is right, 2 is down, 3 is left
@@ -108,7 +122,9 @@ public class Player : MonoBehaviour
         OnMove(this.transform.position); // send out event
         animator.SetTrigger("OnMove");
     }
+    #endregion
 
+    #region Sliding
     private void CheckIfPositionIsSlippery()
     {
         if (Physics2D.OverlapCircle(this.transform.position, physicsOverlapTolerance, slipperyLM))
@@ -127,5 +143,33 @@ public class Player : MonoBehaviour
     {
         yield return new WaitForSeconds(0.1f);
         MoveFutureMovementPosition(cachedDirectionForSliding);
+    }
+    #endregion
+
+    #region Pickups
+    private void ActivatePickup()
+    {
+        if (CurrentPickup != null)
+        {
+            CurrentPickup.UsePickup(this);
+            CurrentPickup = null;
+        }
+    }
+    #endregion
+
+    public void UpdateAnimation(int stateToEnter)
+    {
+        if (stateToEnter == 1)
+        {
+            animator.SetTrigger("ResetState");
+        }
+        else if (stateToEnter == 2)
+        {
+
+        }
+        else if (stateToEnter == 3)
+        {
+
+        }
     }
 }

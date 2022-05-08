@@ -737,7 +737,7 @@ MonoBehaviour:
   - Level 5
   campaignTwoLevels:
   - Main Menu
-  - Slip
+  - DLC Level 1
   currentSceneIndex: 0
 --- !u!4 &391073544
 Transform:

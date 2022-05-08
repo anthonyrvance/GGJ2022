@@ -170,6 +170,12 @@ public class GameManager : MonoBehaviour
     {
         movesLeftBeforeFireText.text = movesLeftBeforeFireString + " " + currentMovesLeft;
     }
+
+    public void ReceiveNewTimeToFire(int newMoves)
+    {
+        currentMovesLeft = newMoves;
+        UpdateMoveText();
+    }
     #endregion
 
     #region Tile objects
