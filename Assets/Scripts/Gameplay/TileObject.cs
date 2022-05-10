@@ -33,7 +33,7 @@ public class TileObject : MonoBehaviour
         AddOurselfToGameManager();
     }
 
-    public void ReceiveFire()
+    public virtual void ReceiveFire()
     {
         switch (objectType)
         {
